@@ -1,1 +1,187 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Burns - Technical Director</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Open Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="font-sans font-extrabold text-gray-800 text-lg tracking-tight">James Burns</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="#about" class="py-4 px-2 text-gray-500 hover:text-gray-900 font-sans font-medium">About</a>
+                    <a href="#experience" class="py-4 px-2 text-gray-500 hover:text-gray-900 font-sans font-medium">Experience</a>
+                    <a href="#skills" class="py-4 px-2 text-gray-500 hover:text-gray-900 font-sans font-medium">Skills</a>
+                    <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-gray-900 font-sans font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-white py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col items-center">
+                <!-- <img src="/api/placeholder/150/150" alt="James Burns" class="rounded-full mb-6"> -->
+                <h1 class="font-sans font-extrabold text-5xl text-gray-800 mb-4 tracking-tight">James Burns</h1>
+                <p class="font-sans text-xl font-light text-gray-600 text-center max-w-2xl leading-relaxed">
+                    Senior Technical Director and multi-platform Games-as-a-Service expert specializing in scaling secure, commercially viable gaming services across console, PC, and mobile platforms. With over two decades in online technologies - from early PlayStation Network development through modern cloud services - I bring deep technical expertise in transforming ambitious gaming visions into reliable, scalable services.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="font-sans text-3xl font-bold text-gray-800 mb-8 tracking-tight">Professional Experience</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 tracking-tight">Senior Technical Director</h3>
+                            <p class="text-gray-600 font-medium">Jagex</p>
+                        </div>
+                        <span class="text-gray-500">May 2019 - Present</span>
+                    </div>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2 font-normal">
+                        <li>Engineering Craft Leadership</li>
+                        <li>Multi-platform Games-as-a-Service architecture</li>
+                        <li>Cybersecurity risk management and secure development practices</li>
+                        <li>Commercial optimization (CapEx/OpEx) for game development</li>
+                        <li>Pragmatic technical leadership and strategy</li>
+                        <li>Cross-platform service scaling and integration</li>
+                        <li>Balanced risk-aware development approaches</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 tracking-tight">Technical Director</h3>
+                            <p class="text-gray-600 font-medium">Splash Damage</p>
+                        </div>
+                        <span class="text-gray-500">2016 - 2019</span>
+                    </div>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2 font-normal">
+                        <li>Led multiple projects using Unreal Engine 4</li>
+                        <li>Managed project roadmapping and team coaching</li>
+                        <li>Headed online programming initiatives</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 tracking-tight">Lead Online Programmer</h3>
+                            <p class="text-gray-600 font-medium">FreeStyleGames</p>
+                        </div>
+                        <span class="text-gray-500">2012 - 2016</span>
+                    </div>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2 font-normal">
+                        <li>Led online engineering for Guitar Hero Live</li>
+                        <li>Managed team of 4 engineers across multiple platforms (PS4, PS3, Xbox One, Xbox 360, WiiU & iOS)</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 tracking-tight">Senior Online Programmer</h3>
+                            <p class="text-gray-600 font-medium">Evolution Studios</p>
+                        </div>
+                        <span class="text-gray-500">2008 - 2012</span>
+                    </div>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2 font-normal">
+                        <li>Led online development for MotorStorm Apocalypse</li>
+                        <li>Implemented pioneering Cross Buy commerce systems for PS3 and PS Vita</li>
+                        <li>Senior engineer on MotorStorm Pacific Rift & MotorStorm RC</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 tracking-tight">Engineer</h3>
+                            <p class="text-gray-600 font-medium">Sony Computer Entertainment Europe</p>
+                        </div>
+                        <span class="text-gray-500">2001 - 2007</span>
+                    </div>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2 font-normal">
+                        <li>PlayStation Network Support</li>
+                        <li>Developer support PS2, PS3, PSP</li>
+                        <li>Special Projects - OPS2M Demo Disc, Network Access Disc</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="font-sans text-3xl font-bold text-gray-800 mb-8 tracking-tight">Technical Skills & Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 tracking-tight">Platform Expertise</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">PS4</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">PS3</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">Xbox One</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">Xbox 360</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">Wii U</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">iOS</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">Android</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">PC/Steam</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 tracking-tight">Certifications</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>✓ Certified Scrum Product Owner</li>
+                        <li>✓ Level 1 Award in Coaching</li>
+                        <li>✓ Agile Development Practices</li>
+                        <li>✓ Unity Fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="font-sans text-3xl font-bold text-gray-800 mb-8 tracking-tight">Get in Touch</h2>
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/norfolknchance/" class="text-gray-600 hover:text-gray-900">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
